@@ -77,7 +77,7 @@ function App() {
       <Container>
         <InputGroup>
           <FormControl
-            placeholder="Search For Artist"
+            placeholder="Search For an Artist or Album"
             type="input"
             aria-label="Search for an Artist"
             onKeyDown={(event) => {
