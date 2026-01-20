@@ -153,9 +153,9 @@ function App() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-5 px-4"
               style={{
               fontFamily: "'Instrument Serif', serif",
-              fontStyle: normal,
-              fontDisplay: swap,
-              fontWeight: 400,
+              fontStyle: "normal",
+              fontDisplay: "swap",
+              fontWeight: '400',
               }}>
               Discover Your Favorite
               <span className="relative inline-block ml-2 sm:ml-3">
