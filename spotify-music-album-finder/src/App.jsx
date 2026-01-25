@@ -148,7 +148,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen" style={{ background: "url('/doodle-background.svg') repeat, #0a0a0a" }}>
+    <div className="min-h-screen" style={{ background: "url('/back.jpg') repeat, #0a0a0a" }}>
       {!hasSearched ? (
         // SEARCH PAGE
         <div className="min-h-screen flex items-center justify-center px-4 py-12">
