@@ -148,7 +148,34 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen" style={{ background: "url('/back.jpg') repeat, #0a0a0a" }}>
+    <div className="relative min-h-screen bg-black overflow-hidden">
+     {/*  Doodle decorations - scattered around 
+      <div className="absolute top-10 left-4 sm:top-20 sm:left-8 md:top-32 md:left-16 z-0 opacity-60 pointer-events-none">
+        <img src="/doodles/doodle-1.png" alt="" className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 text-white" />
+      </div>
+      
+      <div className="absolute top-1/3 right-4 sm:right-8 md:right-16 z-0 opacity-60 pointer-events-none">
+        <img src="/doodles/doodle-2.png" alt="" className="w-12 h-12 sm:w-16 sm:h-16 md:w-24 md:h-24" />
+      </div>
+      
+      <div className="absolute bottom-1/4 left-6 sm:left-12 md:left-20 z-0 opacity-60 pointer-events-none">
+        <img src="/doodles/doodle-3.png" alt="" className="w-14 h-14 sm:w-20 sm:h-20 md:w-32 md:h-32" />
+      </div>
+      
+      <div className="absolute bottom-10 right-8 sm:right-16 md:right-24 z-0 opacity-60 pointer-events-none">
+        <img src="/doodles/doodle-4.png" alt="" className="w-16 h-16 sm:w-24 sm:h-24 md:w-36 md:h-36" />
+      </div>
+      
+      <div className="absolute top-2/3 right-1/3 sm:right-1/4 z-0 opacity-50 pointer-events-none hidden sm:block">
+        <img src="/doodles/doodle-5.png" alt="" className="w-10 h-10 sm:w-14 sm:h-14 md:w-20 md:h-20" />
+      </div>
+      
+      <div className="absolute bottom-1/3 left-1/2 z-0 opacity-50 pointer-events-none hidden md:block">
+        <img src="/doodles/doodle-6.png" alt="" className="w-12 h-12 md:w-18 md:h-18 lg:w-24 lg:h-24" />
+      </div>
+  */}
+      {/* Main content */}
+      <div className="relative z-10">
       {!hasSearched ? (
         // SEARCH PAGE
         <div className="min-h-screen flex items-center justify-center px-4 py-12">
@@ -450,6 +477,7 @@ function App() {
           </div>
         </div>
       )}
+      </div>
     </div>
   );
 }
