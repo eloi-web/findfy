@@ -325,19 +325,17 @@ function App() {
         ) : (
           // RESULTS PAGE
           <div
-            className="min-h-screen pt-20 pb-12 transition-all duration-700"
+            className="min-h-screen pt-36 sm:pt-20 pb-12 transition-all duration-700"
             style={{
               background: `linear-gradient(to bottom, ${backgroundColor}50 0%, #12121233 100%)`
             }}
           >
-            {/* Back Button */}
+            {/* Back Button - Desktop Only */}
             <button
               onClick={handleGoBack}
-              className="fixed top-6 left-6 z-20 w-12 h-12 rounded-full bg-green-500 hover:bg-green-600 flex items-center justify-center transition-all hover:scale-110 focus:outline-none focus:ring-2 focus:ring-green-400"
+              className="hidden sm:flex fixed top-6 left-6 z-20 w-12 h-12 rounded-full bg-green-500 hover:bg-green-600 items-center justify-center transition-all hover:scale-110 focus:outline-none focus:ring-2 focus:ring-green-400"
               aria-label="Go back to home"
             >
-
-
               <svg xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 25 25"
                 width="30"
@@ -352,6 +350,7 @@ function App() {
 
             {/* Search Bar (Sticky) */}
             <div className="fixed top-0 left-0 right-0 z-10 bg-gradient-to-b from-black to-transparent pt-4 pb-6 px-4">
+
               <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-center items-center gap-3">
                 <input
                   type="text"
